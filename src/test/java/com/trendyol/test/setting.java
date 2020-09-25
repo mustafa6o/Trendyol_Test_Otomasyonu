@@ -13,7 +13,7 @@ public class setting {
 
     @BeforeClass
     public static void setUp(){
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Mustafa Terzi\\IdeaProjects\\trendyol_1\\drive\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\MUSTAFA\\IdeaProjects\\trendyol_1\\drive\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
